@@ -10,7 +10,7 @@
     <div class="col-xs-3 col-sm-3 col-md-4">
         <div class="form-group">
             <label for="project_date"><strong>Date: </strong></label>
-            <input type="date" name="gallery_date" id="gallery_date" class="form-control" placeholder="" autocomplete="off" value="{{ old('project_date') }}" required>
+            <input type="date" name="gallery_date" id="gallery_date" class="form-control" placeholder="" autocomplete="off" value="{{ old('project_date') }}">
         </div>
     </div>
 </div>
@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="form-group">
                     <div class="col-xs-3 col-sm-3 col-md-4">
-                         <input id="uploadImage" type="file" name="gallery_image" accept="image/*" capture="camera"/>
+                         <input id="uploadImage" type="file" name="gallery_image" accept="image/*" capture="camera" required/>
                     </div>
                 </div>
             </div>
