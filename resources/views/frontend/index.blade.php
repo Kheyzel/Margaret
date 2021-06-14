@@ -18,6 +18,7 @@
   <!-- Vendor CSS Files -->
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
@@ -238,7 +239,7 @@
             <div class="col-lg-4 mb-4 d-flex justify-content-center">
               <div class="card" style="width: 18rem;">
                 <h4 class="card-header text-dark text-center">{{$calendar->formatted_date}}</h4>
-                <img class = "mx-auto mt-3" src="{{ asset("/storage/calendar_images/".$calendar->act_image) }}"  height="180px" alt="Activity Image"/>
+                <img class = "mx-auto mt-3" src="{{ asset("/storage/calendar_images/".$calendar->act_image) }}" width="100%" height="180px" alt="Activity Image"/>
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <h6 class="card-text text-primary text-center fw-bold">{{$calendar->act_description}}</h6>

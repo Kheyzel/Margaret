@@ -23,7 +23,7 @@
             <div class="row">
                 <div class="form-group">
                     <div class="col-xs-3 col-sm-3 col-md-4">
-                         <input id="uploadImage" type="file" name="gallery_image" accept="image/*" capture="camera" required />
+                         <input id="uploadImage" type="file" name="gallery_image" accept="image/*" capture="camera"/>
                     </div>
                 </div>
             </div>

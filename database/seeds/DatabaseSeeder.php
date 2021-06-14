@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 
+
 class DatabaseSeeder extends Seeder
 {
     /**
@@ -13,5 +14,9 @@ class DatabaseSeeder extends Seeder
     {
         $this->call(UserSeeder::class);
         $this->call(ContactSeeder::class);
+        $this->call(MissionSeeder::class);
+        $this->call(VisionSeeder::class);
+        $this->call(OrganizationSeeder::class);
+        $this->call(ProgramSeeder::class);
     }
 }
